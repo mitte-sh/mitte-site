@@ -1,0 +1,8 @@
+{
+  "label": "Deployment Modes",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Learn about the different ways you can deploy applications with Mitte."
+  }
+}
