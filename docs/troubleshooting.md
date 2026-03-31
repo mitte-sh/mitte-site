@@ -31,6 +31,19 @@ sudo mitte watcher restart
 sudo mitte watcher logs
 ```
 
+### Manual Route Management
+
+```bash
+# List all apps and their current ports
+sudo mitte apps list
+
+# Check if an app's route exists
+sudo mitte routes check <appname>
+
+# Manually update an app's route
+sudo mitte routes update <appname> <port>
+```
+
 ## Buildpack Issues with Docker 29.x+
 
 If you encounter Docker API version errors with buildpacks, ensure you have pack CLI v0.39.0+ installed.

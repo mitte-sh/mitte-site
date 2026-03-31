@@ -22,3 +22,4 @@ Using the power of Docker, Git, and Caddy, `mitte` provides a simple, self-hoste
 - 🐘 **PostgreSQL Support**: Built-in PostgreSQL database service with health checks, backup/restore, and user management.
 - 🔄 **Automatic Route Recovery**: Container watcher service automatically fixes Caddy routes after Docker restarts.
 - 🛠️ **Route Management Tools**: Commands to manually fix broken routes and manage the watcher service.
+- 🔐 **Application Authentication**: Protect apps with Authelia — password, 2FA, SSO across all your apps.

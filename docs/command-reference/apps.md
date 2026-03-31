@@ -15,8 +15,14 @@ mitte apps set-image <appname> <image>
 # Configure volume mounts for an app
 mitte apps set-volumes <appname> /host/path:/container/path
 
+# List volume mounts for an app
+mitte apps list-volumes <appname>
+
 # Configure port mappings for an app
 mitte apps set-ports <appname> 8080:80
+
+# List port mappings for an app
+mitte apps list-ports <appname>
 
 # Configure a custom command/entrypoint for an app
 mitte apps set-command <appname> serve --port 8080
